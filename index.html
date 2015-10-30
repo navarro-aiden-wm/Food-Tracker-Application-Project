@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Food Tracker</title>
+    <style>
+           form {
+               background-image: url("http://www.toyworldmag.co.uk/wp-content/uploads/2012/12/WOW-STUFF-LOGO-2012-300.gif");
+           }
+            body {
+                background-image: url("http://media.giphy.com/media/11LtzfNXmCQQ80/giphy.gif");
+            }
+        table {
+            background-image: url("http://previews.123rf.com/images/notkoo2008/notkoo20081103/notkoo2008110300310/9221254-seamless-fast-food-pattern--Stock-Vector-pizza-background.jpg");
+        }
+    </style>
+    </head>
+<body>
+
+<div id="div1">
+<form>
+        Name: <input id="name"/>
+        Calories: <input id="cal"/>
+        Description: <input id="desc"/>
+        Date: <input id="date"/>
+        Shelf Life: <input id="life"/>
+        Expiration Date: <input id="exp"/>
+        <input type="button" value="Submit" onclick="update()"/>
+    </form>
+</div>
+
+<table id="table" border="1" style="width:100%;">
+        <tr>
+            <td>Name</td>
+            <td>Calories</td>
+            <td>Description</td>
+            <td>Date</td>
+            <td>Shelf Life</td>
+            <td>Expiration</td>
+
+        </tr>
+    </table>
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
